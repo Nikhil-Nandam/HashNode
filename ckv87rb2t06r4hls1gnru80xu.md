@@ -2,7 +2,7 @@
 
 Hello everyone, so this is Nikhil Nandam back yet with another article on various evaluation metrics of a trained model. There are various metrics to evaluate the performance of our model on new previously unseen data and I am going to elaborate on the most commonly used metrics for binary classification.
 Without any further delay, let’s get started.
-
+<hr>
 
 So starting off with 
 ### What is an evaluation metric?
