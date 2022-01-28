@@ -1,6 +1,7 @@
 ## Linear Regression
 
 Hello Everyone, This is Nikhil Nandam back with yet another article on machine learning, this time being Linear Regression. So let's jump right in!
+<hr>
 
 To understand Linear Regression, we need to first understand the about the class of machine learning models that Linear Regression belongs.
 
