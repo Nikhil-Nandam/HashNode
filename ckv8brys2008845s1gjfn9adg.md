@@ -10,7 +10,7 @@ from sklearn.neighbors import KNeighborsClassifier
 ```
 You can find the official documentation link below for further insight and deeper dive.
  [KNeighborsClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
-
+<hr>
 
 This classifier is based on the principle of calculating the number of nearest points to the given test sample and then assigns the classes to the sample that the model feels it suits best.
 
