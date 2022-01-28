@@ -1,6 +1,7 @@
 ## Logistic Regression
 
 Hello guys, This is Nikhil Nandam, back again with another article. This article is going to deal with Logistic Regression. So let's begin!
+<hr>
 
 
 ### Logistic Regression
