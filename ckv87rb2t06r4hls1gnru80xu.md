@@ -55,7 +55,7 @@ $$
 Another metric is called recall. Recall is the ratio of number of correctly predicted positives over the total number of instances that were actually positive. More precisely, the ratio of true_positives(TP) over the sum of true_positives(TP) and false_negatives(FN).
 
 $$
-precision = \frac{TP}{TP + FN}
+recall = \frac{TP}{TP + FN}
 $$
 
 Note the very slight difference between precision and recall. It takes some time to wrap your head around this concept.
