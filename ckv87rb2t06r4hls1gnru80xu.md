@@ -48,7 +48,7 @@ The next metric is precision. Precision is the ratio of number of correctly pred
 ### Recall
 Another metric is called recall. Recall is the ratio of number of correctly predicted positives over the total number of instances that were actually positive. More precisely, the ratio of true_positives(TP) over the sum of true_positives(TP) and false_negatives(FN).
 
-<img src="https://latex.codecogs.com/svg.image?\inline&space;recall&space;=&space;\frac{TP}{TP&space;&plus;&space;FN}" title="https://latex.codecogs.com/svg.image?\inline recall = \frac{TP}{TP + FN}" />
+<img src="https://latex.codecogs.com/svg.image?recall&space;=&space;\frac{TP}{TP&space;&plus;&space;FN}" title="https://latex.codecogs.com/svg.image?recall = \frac{TP}{TP + FN}" />
 
 Note the very slight difference between precision and recall. It takes some time to wrap your head around this concept.
 <hr>
