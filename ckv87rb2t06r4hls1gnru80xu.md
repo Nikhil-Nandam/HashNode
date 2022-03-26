@@ -32,9 +32,7 @@ Now with these terminology out of the way, let's proceed further.
 The first evaluation metric we are going to discuss is accuracy.
 Accuracy is defined as the ratio of correctly labelled instances to the to the total number of instances. More precisely, the ratio of the sum of true_positives(TP) plus true_negatives(TN) over the total number of instances.
 
-$$
-accuracy = \frac{TP + TN}{No. of Instances}
-$$
+<img src="https://latex.codecogs.com/svg.image?\inline&space;accuracy&space;=&space;\frac{TP&space;&plus;&space;TN}{No.&space;of&space;Instances}" title="https://latex.codecogs.com/svg.image?\inline accuracy = \frac{TP + TN}{No. of Instances}" />
 
 Or more precisely,
 
@@ -44,17 +42,13 @@ Or more precisely,
 ### Precision
 The next metric is precision. Precision is the ratio of number of correctly predicted positives over the total number of instances that were predicted positive. More precisely, the ratio of true_positives(TP) over the sum of true_positives(TP) and false_positives(FP).
 
-$$
-precision = \frac{TP}{TP + FP}
-$$
+<img src="https://latex.codecogs.com/svg.image?\inline&space;precision&space;=&space;\frac{TP}{TP&space;&plus;&space;FP}" title="https://latex.codecogs.com/svg.image?\inline precision = \frac{TP}{TP + FP}" />
 <hr>
 
 ### Recall
 Another metric is called recall. Recall is the ratio of number of correctly predicted positives over the total number of instances that were actually positive. More precisely, the ratio of true_positives(TP) over the sum of true_positives(TP) and false_negatives(FN).
 
-$$
-recall = \frac{TP}{TP + FN}
-$$
+<img src="https://latex.codecogs.com/svg.image?\inline&space;recall&space;=&space;\frac{TP}{TP&space;&plus;&space;FN}" title="https://latex.codecogs.com/svg.image?\inline recall = \frac{TP}{TP + FN}" />
 
 Note the very slight difference between precision and recall. It takes some time to wrap your head around this concept.
 <hr>
@@ -72,15 +66,10 @@ Suppose you belong the crime branch and using some magic have been able to creat
 ### F1-Score
 The final metric is based on the metrics discussed above. F1-Score conveys the balance between precision and recall. 
 
-$$
-f_{1} = 2 \* \frac{precision * recall}{precision + recall}
-$$
-
+<img src="https://latex.codecogs.com/svg.image?\inline&space;f_{1}&space;=&space;2&space;\*&space;\frac{precision&space;*&space;recall}{precision&space;&plus;&space;recall}" title="https://latex.codecogs.com/svg.image?\inline f_{1} = 2 \* \frac{precision * recall}{precision + recall}" />
 also calculated by
 
-$$
-f_{1} = \frac{TP}{TP + \frac{1}{2}(FP + FN)}
-$$
+<img src="https://latex.codecogs.com/svg.image?\inline&space;f_{1}&space;=&space;\frac{TP}{TP&space;&plus;&space;\frac{1}{2}(FP&space;&plus;&space;FN)}" title="https://latex.codecogs.com/svg.image?\inline f_{1} = \frac{TP}{TP + \frac{1}{2}(FP + FN)}" />
 <hr>
 
 ### Calculating various metrics using Sklearn
