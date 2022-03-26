@@ -52,15 +52,11 @@ The output from the Logistic Regression formula can be interpreted as the probab
 
 #### Thresholds
 
-- An input data instance, whose output value from the logistic function lies between 0.5 and 1, that is, 
-<img src="https://latex.codecogs.com/svg.image?\inline&space;\hat{y}&space;\geq&space;0.5" title="https://latex.codecogs.com/svg.image?\inline \hat{y} \geq 0.5" />
-is classified as belonging to the positive class.
+- An input data instance, whose output value from the logistic function lies between 0.5 and 1, that is <img src="https://latex.codecogs.com/svg.image?\inline&space;\hat{y}&space;\geq&space;0.5" title="https://latex.codecogs.com/svg.image?\inline \hat{y} \geq 0.5" /> is classified as belonging to the positive class.
 
 Similarly,
 
-- An input data instance, whose output value from the logistic function lies between 0 and 0.5, that is, 
-<img src="https://latex.codecogs.com/svg.image?\inline&space;\hat{y}&space;<&space;0.5" title="https://latex.codecogs.com/svg.image?\inline \hat{y} < 0.5" />
-is classified as belonging to the negative class.
+- An input data instance, whose output value from the logistic function lies between 0 and 0.5, that is <img src="https://latex.codecogs.com/svg.image?\inline&space;\hat{y}&space;<&space;0.5" title="https://latex.codecogs.com/svg.image?\inline \hat{y} < 0.5" /> is classified as belonging to the negative class.
 
 <hr>
 
