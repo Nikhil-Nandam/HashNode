@@ -26,8 +26,11 @@ A model is usually a file that is trained on a set of data(training data) during
 4. **Testing phase:** This step involves analysing who well our model performs on new previously unseen data during the training phase and then adjusting the model parameters to improve the accuracy metric we are trying to maximise.
 
 Typically, a dataset would be of this format
+
 ![a27d24_3aeed34a17534fad8ed5a05999747353~mv2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635178724525/Vd_1pPfeb.png)
+
 and after separating the target values from the features, our input feature set and target value set looks like this
+
 ![a27d24_6f2ceb014ddc4f7b82d8b726a33c4dc1~mv2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635178784981/M6GfAjqRD.png)
 ![a27d24_efcaddb8675e4b6fa0382a9147db0476~mv2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635178814552/cSx1NJepl.png)
 <hr>

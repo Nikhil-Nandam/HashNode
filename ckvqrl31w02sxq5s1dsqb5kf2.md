@@ -16,33 +16,29 @@ Logistic Regression is an extension of Linear Regression and that extension is i
 
 ### Logistic Function (Sigmoid Function)
 
-The logistic function transforms real-valued input to an output number \\(y\\) between 0 and 1, interpreted as the probability the object belongs to the positive class, given it's input features \\((x_0, x_1, x_2, ... , x_n)\\).
+The logistic function transforms real-valued input to an output number <img src="https://latex.codecogs.com/svg.image?\inline&space;y" title="https://latex.codecogs.com/svg.image?\inline y" />
+between 0 and 1, interpreted as the probability the object belongs to the positive class, given it's input features <img src="https://latex.codecogs.com/svg.image?\inline&space;(x_0,&space;x_1,&space;x_2,&space;...&space;,&space;x_n)" title="https://latex.codecogs.com/svg.image?\inline (x_0, x_1, x_2, ... , x_n)" />.
 
 The target values in Logistic Regression are obtained using the formula below.
 
-$$
-\hat{y} = logistic(x_1\hat{w_1} + x_2\hat{w_2} + x_3\hat{w_3} + ... + x_n\hat{w_n} + \hat{b})
-$$
+<img src="https://latex.codecogs.com/svg.image?&space;\hat{y}&space;=&space;logistic(x_1\hat{w_1}&space;&plus;&space;x_2\hat{w_2}&space;&plus;&space;x_3\hat{w_3}&space;&plus;&space;...&space;&plus;&space;x_n\hat{w_n}&space;&plus;&space;\hat{b})" title="https://latex.codecogs.com/svg.image?\hat{y} = logistic(x_1\hat{w_1} + x_2\hat{w_2} + x_3\hat{w_3} + ... + x_n\hat{w_n} + \hat{b})" />
 
-The logistic function here is the sigmoid function represented by \\(S(x)\\) whose formula and graph are shown below.
+The logistic function here is the sigmoid function represented by <img src="https://latex.codecogs.com/svg.image?\inline&space;S(x)" title="https://latex.codecogs.com/svg.image?\inline S(x)" />
+whose formula and graph are shown below.
 
-$$
-S(x) = \frac{1}{1 + e^{-x}}
-$$
+<img src="https://latex.codecogs.com/svg.image?&space;S(x)&space;=&space;\frac{1}{1&space;&plus;&space;e^{-x}}" title="https://latex.codecogs.com/svg.image?S(x) = \frac{1}{1 + e^{-x}}" />
 
 ![1200px-Logistic-curve.svg.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1635867677456/UxiA5GRdw.png)
 
-So now, we can more precisely formulate \\(\hat{y}\\).
+So now, we can more precisely formulate <img src="https://latex.codecogs.com/svg.image?\inline&space;\hat{y}" title="https://latex.codecogs.com/svg.image?\inline \hat{y}" />.
 
-$$
-\hat{y} = \frac{1}{1 + \exp{[-(x_1\hat{w_1} + x_2\hat{w_2} + x_3\hat{w_3} + ... + x_n\hat{w_n} + \hat{b})]}}
-$$
+<img src="https://latex.codecogs.com/svg.image?&space;\hat{y}&space;=&space;\frac{1}{1&space;&plus;&space;\exp{[-(x_1\hat{w_1}&space;&plus;&space;x_2\hat{w_2}&space;&plus;&space;x_3\hat{w_3}&space;&plus;&space;...&space;&plus;&space;x_n\hat{w_n}&space;&plus;&space;\hat{b})]}}" title="https://latex.codecogs.com/svg.image?\hat{y} = \frac{1}{1 + \exp{[-(x_1\hat{w_1} + x_2\hat{w_2} + x_3\hat{w_3} + ... + x_n\hat{w_n} + \hat{b})]}}" />
 
-As we can observe from the graph of the sigmoid function \\(S(x)\\), the \\(\hat{y}\\) values ranges between 0 and 1. So therefore, 
+As we can observe from the graph of the sigmoid function <img src="https://latex.codecogs.com/svg.image?\inline&space;S(x)" title="https://latex.codecogs.com/svg.image?\inline S(x)" />
+, the <img src="https://latex.codecogs.com/svg.image?\inline&space;\hat{y}" title="https://latex.codecogs.com/svg.image?\inline \hat{y}" />
+values ranges between 0 and 1. So therefore, 
 
-$$
-\hat{y} \in (0, 1)
-$$
+<img src="https://latex.codecogs.com/svg.image?&space;\hat{y}&space;\in&space;(0,&space;1)" title="https://latex.codecogs.com/svg.image?\hat{y} \in (0, 1)" />
 
 <hr>
 
@@ -56,13 +52,11 @@ The output from the Logistic Regression formula can be interpreted as the probab
 
 #### Thresholds
 
-- An input data instance, whose output value from the logistic function lies between 0.5 and 1, that is, 
-\\(\hat{y} \geq 0.5\\) is classified as belonging to the positive class.
+- An input data instance, whose output value from the logistic function lies between 0.5 and 1, that is <img src="https://latex.codecogs.com/svg.image?\inline&space;\hat{y}&space;\geq&space;0.5" title="https://latex.codecogs.com/svg.image?\inline \hat{y} \geq 0.5" /> is classified as belonging to the positive class.
 
 Similarly,
 
-- An input data instance, whose output value from the logistic function lies between 0 and 0.5, that is, 
-\\(\hat{y} < 0.5\\) is classified as belonging to the negative class.
+- An input data instance, whose output value from the logistic function lies between 0 and 0.5, that is <img src="https://latex.codecogs.com/svg.image?\inline&space;\hat{y}&space;<&space;0.5" title="https://latex.codecogs.com/svg.image?\inline \hat{y} < 0.5" /> is classified as belonging to the negative class.
 
 <hr>
 
