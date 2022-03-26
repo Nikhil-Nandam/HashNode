@@ -38,7 +38,7 @@ $$
 
 Or more precisely,
 
-\[ https://latex.codecogs.com/svg.image? accuracy = \frac{TP + TN}{TP + FP + FN + TN}\]
+<img src="https://latex.codecogs.com/svg.image?&space;accuracy&space;=&space;\frac{TP&space;&plus;&space;TN}{TP&space;&plus;&space;FP&space;&plus;&space;FN&space;&plus;&space;TN}" title="https://latex.codecogs.com/svg.image? accuracy = \frac{TP + TN}{TP + FP + FN + TN}" />
 <hr>
 
 ### Precision
