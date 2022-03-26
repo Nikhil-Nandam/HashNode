@@ -65,10 +65,10 @@ Suppose you belong the crime branch and using some magic have been able to creat
 ### F1-Score
 The final metric is based on the metrics discussed above. F1-Score conveys the balance between precision and recall. 
 
-<img src="https://latex.codecogs.com/svg.image?\inline&space;f_{1}&space;=&space;2&space;\*&space;\frac{precision&space;*&space;recall}{precision&space;&plus;&space;recall}" title="https://latex.codecogs.com/svg.image?\inline f_{1} = 2 \* \frac{precision * recall}{precision + recall}" />
+<img src="https://latex.codecogs.com/svg.image?&space;f_{1}&space;=&space;2&space;\*&space;\frac{precision&space;*&space;recall}{precision&space;&plus;&space;recall}" title="https://latex.codecogs.com/svg.image? f_{1} = 2 \* \frac{precision * recall}{precision + recall}" />
 also calculated by
 
-<img src="https://latex.codecogs.com/svg.image?\inline&space;f_{1}&space;=&space;\frac{TP}{TP&space;&plus;&space;\frac{1}{2}(FP&space;&plus;&space;FN)}" title="https://latex.codecogs.com/svg.image?\inline f_{1} = \frac{TP}{TP + \frac{1}{2}(FP + FN)}" />
+<img src="https://latex.codecogs.com/svg.image?&space;f_{1}&space;=&space;\frac{TP}{TP&space;&plus;&space;\frac{1}{2}(FP&space;&plus;&space;FN)}" title="https://latex.codecogs.com/svg.image?f_{1} = \frac{TP}{TP + \frac{1}{2}(FP + FN)}" />
 <hr>
 
 ### Calculating various metrics using Sklearn
