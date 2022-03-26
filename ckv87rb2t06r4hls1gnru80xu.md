@@ -38,9 +38,7 @@ $$
 
 Or more precisely,
 
-$$
-accuracy = \frac{TP + TN}{TP + FP + FN + TN}
-$$
+\[ https://latex.codecogs.com/svg.image? accuracy = \frac{TP + TN}{TP + FP + FN + TN}\]
 <hr>
 
 ### Precision
