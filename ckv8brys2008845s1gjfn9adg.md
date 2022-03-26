@@ -30,7 +30,7 @@ An example of a classifier that classifies various fruits is shown below along t
 ### Parameters
 Like many other machine learning models, the KNeighborsClassifier has its set of parameters to tweak to create a good fit for the training data. We will not be discussing about all the parameters, but few of them are explained below...
 
-1. **n_neighbors : ** *int, default=5* -> The number of points in the training set that the new test sample must be calculated to be nearest.
+1. **n_neighbors :** *int, default=5* -> The number of points in the training set that the new test sample must be calculated to be nearest.
 
 2. **weights :** *{‘uniform’, ‘distance’} or callable, default=’uniform’* -> Assign weights to the points based on distance or treat all points with equal weights.
 
@@ -78,12 +78,16 @@ We are not going to discuss in detail the functioning of MinMaxScaler but what i
 
 The formula to perform the transformation is given below.
 
-$$
-x' = \frac{(x - x\_{min})} {x\_{max} - x\_{min}} * (max - min) + min
-$$
+<img src="https://latex.codecogs.com/svg.image?x'&space;=&space;\frac{(x&space;-&space;x\_{min})}&space;{x\_{max}&space;-&space;x\_{min}}&space;*&space;(max&space;-&space;min)&space;&plus;&space;min" title="https://latex.codecogs.com/svg.image?x' = \frac{(x - x\_{min})} {x\_{max} - x\_{min}} * (max - min) + min" />
 
-where \\(x\_{min}\\) represents minimum value in the column,  \\(x\_{max}\\) represents maximum value in the column, \\(x'\\) represents scaled/transformed value and \\(x\\) represents the actual value of x.
-\\(min\\) and \\(max\\) respectively represent the minimum and maximum values of the scaled range.
+where <img src="https://latex.codecogs.com/svg.image?\inline&space;x\_{min}" title="https://latex.codecogs.com/svg.image?\inline x\_{min}" />
+represents minimum value in the column,  <img src="https://latex.codecogs.com/svg.image?\inline&space;x\_{max}" title="https://latex.codecogs.com/svg.image?\inline x\_{max}" />
+represents maximum value in the column, <img src="https://latex.codecogs.com/svg.image?\inline&space;x'" title="https://latex.codecogs.com/svg.image?\inline x'" />
+represents scaled/transformed value and <img src="https://latex.codecogs.com/svg.image?\inline&space;x" title="https://latex.codecogs.com/svg.image?\inline x" />
+represents the actual value of x.
+<img src="https://latex.codecogs.com/svg.image?\inline&space;min" title="https://latex.codecogs.com/svg.image?\inline min" /> 
+and <img src="https://latex.codecogs.com/svg.image?\inline&space;max" title="https://latex.codecogs.com/svg.image?\inline max" /> 
+respectively represent the minimum and maximum values of the scaled range.
 
 ```
 X_std = (X - X.min(axis=0)) / (X.max(axis=0) - X.min(axis=0))
@@ -119,4 +123,3 @@ Comments and Suggestions will be greatly appreciated.
 Thanks for reading, have a wonderful day! 😁
 
 ![Reed-blog-post-image.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1635266881538/zbGG3WsNP.jpeg)
-
