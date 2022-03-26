@@ -32,8 +32,7 @@ Now with these terminology out of the way, let's proceed further.
 The first evaluation metric we are going to discuss is accuracy.
 Accuracy is defined as the ratio of correctly labelled instances to the to the total number of instances. More precisely, the ratio of the sum of true_positives(TP) plus true_negatives(TN) over the total number of instances.
 
-<img src="https://latex.codecogs.com/svg.image?\inline&space;accuracy&space;=&space;\frac{TP&space;&plus;&space;TN}{No.&space;of&space;Instances}" title="https://latex.codecogs.com/svg.image?\inline accuracy = \frac{TP + TN}{No. of Instances}" />
-
+<img src="https://latex.codecogs.com/svg.image?accuracy&space;=&space;\frac{TP&space;&plus;&space;TN}{No.&space;of&space;Instances}" title="https://latex.codecogs.com/svg.image?accuracy = \frac{TP + TN}{No. of Instances}" />
 Or more precisely,
 
 <img src="https://latex.codecogs.com/svg.image?&space;accuracy&space;=&space;\frac{TP&space;&plus;&space;TN}{TP&space;&plus;&space;FP&space;&plus;&space;FN&space;&plus;&space;TN}" title="https://latex.codecogs.com/svg.image? accuracy = \frac{TP + TN}{TP + FP + FN + TN}" />
@@ -42,7 +41,7 @@ Or more precisely,
 ### Precision
 The next metric is precision. Precision is the ratio of number of correctly predicted positives over the total number of instances that were predicted positive. More precisely, the ratio of true_positives(TP) over the sum of true_positives(TP) and false_positives(FP).
 
-<img src="https://latex.codecogs.com/svg.image?\inline&space;precision&space;=&space;\frac{TP}{TP&space;&plus;&space;FP}" title="https://latex.codecogs.com/svg.image?\inline precision = \frac{TP}{TP + FP}" />
+<img src="https://latex.codecogs.com/svg.image?&space;precision&space;=&space;\frac{TP}{TP&space;&plus;&space;FP}" title="https://latex.codecogs.com/svg.image?precision = \frac{TP}{TP + FP}" />
 <hr>
 
 ### Recall
